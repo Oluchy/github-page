@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+
+        <title>PiggVest | Dashboard</title>
+
+        <link rel="shortcut icon" href="favicon.webp" type="image/x-icon"/> 
+    
+        <link rel="stylesheet" href="stylesheet.css">
+
+    </head>
+
+    <body>
+
+        <img src="piggyvest-logo.svg" alt="piggyvest logo" class="center"/>
+
+
+
+        <form action="processform.php" method="POST">
+             <div class="form">
+                <h2>Create a Secure Account</h2>
+               <div class="welcome">
+                <p>Welcome to the future of Savings & Investments</p>
+               </div>
+
+                <p>
+                <label for="full name">Full Name</label><br />
+                 <input type="text" name="full name" placeholder="Full Name" />
+            </p>
+    
+            <p>
+                <label for="email">Email Address</label><br />
+                <input type="email" name="email" placeholder="Email Address" required />
+                
+                <p>
+                    <label for="phone number">Phone Number</label><br />
+                     <input type="text" name="phone number" placeholder="Phone Number" />
+                </p>
+    
+                <p>
+                     <label for="Password">Password</label><br />
+                     <input type="text" name="Password" placeholder="Password" />
+                </p>
+    
+                <p>
+                    <label for="Referrer Phone Or Code (Optional)">Referrer Phone Or Code (Optional)</label><br />
+                     <input type="text" name="Referrer Phone Or Code (Optional)" placeholder="Referrer Phone Or Code" />
+                </p>
+            </p>
+    
+                <p>
+                    <label for="How Did You Hear About Us? (Optional)">How Did You Hear About Us? (Optional)</label><br />
+                    <div class="select">
+                     <select name="slt-1" id="slt-1">
+                        <option>Click To Select</option> 
+                        <option value="1">Facebook</option>
+                        <option value="2">Twitter</option>
+                        <option value="3">Instagram</option>
+                        <option value="4">Friend/Family/Coworker Referral</option>
+                        <option value="5"> Google search</option>
+                        <option value="6">Google playstore</option>
+                        <option value="7">Online Blog</option>
+                        <option value="8">Local Newspaper</option>
+                        <option value="9">At an event</option>
+                        <option value="10">Other</option>
+                     </select>
+                    </div>
+                
+                </p>
+    
+           
+            
+             <button type="submit" 
+             class="registerbtn">CREATE ACCOUNT</button>
+             
+             
+            </div>
+
+        
+        
+        </form>
+         <div class="container login">
+            <P> <a href="#"> Already have an account Log In</a>.</p>
+        </div>
+    
+    </body>
+</html>
+        
+
